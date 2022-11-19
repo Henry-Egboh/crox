@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-in Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- body container -->
+    <section class="container">
+        <!-- container for form -->
+        <div class="form_content">
+            <h1>Sign in</h1>
+
+            <div class="dotted">
+                <hr class="hr">
+                <hr class="hr">
+                <hr class="hr">
+                <hr class="hr hr_extend">
+            </div>
+            <!-- form section -->
+            <form action="" method="">
+                <!-- username -->
+                <div class="form_field">
+                    <div class="input_field">
+                       <div class="input_field1">
+                        <label for="username">Username:</label>
+                       </div>
+                       <div class="input_field2">
+                        <i class="fa fa-user ispace"></i>
+                        <input type="text" id="username" name="username" placeholder="Enter username">
+                       </div>
+                    </div>
+                    <!-- email -->
+                    <div class="input_field">
+                      <div class="input_field1 mright">
+                        <label for="email">Email:</label>
+                      </div>
+                      <div class="input_field2">
+                        <i class="fa fa-envelope ispace"></i>
+                        <input type="email" id="email" name="email" placeholder="Enter email">
+                      </div>
+                    </div>
+                    <!-- password -->
+                    <div class="input_field">
+                       <div class="input_field1 mright1">
+                        <label for="password">Password:</label>
+                       </div>
+                        <div class="input_field2">
+                            <i class="fa fa-lock ispace"></i>
+                            <input type="password" id="password" name="password" placeholder="Enter password">
+                        </div>
+                    </div>
+                </div>
+            </form>
+
+            <!-- radio button -->
+            <div class="radio_btn">
+                <div class="btn">
+                    <input type="radio" id="radio" name="radio">
+                    <label for="radio">Male</label>
+                </div>
+
+                <div class="btn">
+                    <input type="radio" id="radio" name="radio">
+                    <label for="radio">Female</label>
+                </div>
+            </div>
+            <!-- checkbox -->
+            <div class="checkbox">
+                <input type="checkbox" id="checkbox" name="checkbox">
+                <label for="checkbox">By clicking, you accept our terms and conditions.</label>
+            </div>
+
+            <!-- buttons -->
+            <div class="button">Sign in</div>
+        </div>
+    </section>
+
+    <script src="https://use.fontawesome.com/2c38b88d47.js"></script>
+</body>
+</html>
